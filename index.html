@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flroravara</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="#home">
+                <img src="images/logo.jpeg" alt="Logo Toko Buket Bunga Elegant" class="logo">
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="#home">Beranda</a></li>
+                    <li><a href="#products">Produk</a></li>
+                    <li><a href="#about">Tentang Kami</a></li>
+                    <li><a href="#contact">Kontak</a></li>
+                    <li><a href="#" id="cart-icon">Keranjang (<span id="cart-count">0</span>)</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section id="home" class="hero">
+            <h2>Keindahan Bunga untuk Setiap Momen</h2>
+            <p>Hadiahkan senyuman dengan buket bunga pilihan terbaik kami.</p>
+            <a href="#products" class="button">Lihat Koleksi</a>
+        </section>
+
+        <section id="products">
+            <h2>Koleksi Buket Bunga Kami</h2>
+            <div class="product-grid" id="product-list">
+                </div>
+        </section>
+
+        <section id="cart-modal" class="modal">
+            <div class="modal-content">
+                <span class="close-button">&times;</span>
+                <h3>Keranjang Belanja Anda</h3>
+                <div id="cart-items">
+                    </div>
+                <div class="cart-summary">
+                    <p>Total: Rp <span id="cart-total">0</span></p>
+                    <button class="button checkout-button">Lanjutkan ke Pembayaran</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>Tentang Kami</h2>
+            <p>Kami berkomitmen untuk menyediakan buket bunga segar dan indah untuk setiap kesempatan spesial Anda.</p>
+            <p>Setiap buket dirangkai dengan cinta dan perhatian terhadap detail.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Hubungi Kami</h2>
+            <p>Ada pertanyaan? Jangan ragu untuk menghubungi kami.</p>
+            <form>
+                <input type="text" placeholder="Nama Anda">
+                <input type="email" placeholder="Email Anda">
+                <textarea placeholder="Pesan Anda"></textarea>
+                <button type="submit" class="button">Kirim Pesan</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Farhanfalah</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
